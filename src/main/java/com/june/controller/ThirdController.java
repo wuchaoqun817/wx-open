@@ -124,7 +124,7 @@ public class ThirdController {
 		String url = "https://mp.weixin.qq.com/cgi-bin/componentloginpage?";
 		String appid = WechatConfig.THIRDAPPID;
 		String preAuthCode=thirdService.preAuthCode();
-		String redirectUri="http://wx.52nongyou.com/wx/success_auth";
+		String redirectUri="http://wx.xxxx.com/wx/success_auth";
 		sb.append(url);
 		sb.append("component_appid=").append(appid);
 		sb.append("&pre_auth_code=").append(preAuthCode);
