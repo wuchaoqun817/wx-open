@@ -88,13 +88,13 @@
 
 	<!-- 打成可用的jar包 -->
 	<build>
-		<finalName>lyn-wx</finalName>
+		<finalName>june-wx</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.qili.Application</mainClass>
+					<mainClass>com.june.Application</mainClass>
 				</configuration>
 				<executions>
 					<execution>
